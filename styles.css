@@ -1,0 +1,399 @@
+@charset "UTF-8";
+
+html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 98.57rem;
+    margin: 2rem auto;
+    box-shadow: -1px 0px 6px 0px rgba(255,255,255,0.75);
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 100vw;
+    width: 100%;
+    height: 170vh;
+    max-height: 180vh;
+}
+
+.container {
+    width: 100%;
+    height: 70%;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: inherit;
+    margin-bottom: 0;
+}
+
+header {
+    margin-top: 0;
+    margin-left: 72px;
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; 
+    height: 36px;
+    gap: 20px; 
+}
+
+.logo {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.logoId {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -24px;
+}
+
+.link {
+    list-style-type: none;
+    display: flex;
+    margin-right: 0;
+}
+
+.link li {
+    padding: 5px;
+    text-align: center;
+    margin-left: 15px;
+    font-family: poppins, sans-serif;
+    list-style-type: none;
+    display: inline;
+}
+
+.link li a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link li a:hover {
+    color: blanchedalmond;
+}
+
+.icons {
+    width: auto;
+    display: flex;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    color: white;
+}
+
+.message{ 
+    background-color: rgba(78, 53, 33, 0.55);
+    color: white;
+    display: flex;
+    max-width: 386px;
+    min-width: 356px; 
+    width: 386px;
+    font-family: poppins, sans-serif;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px auto;
+    padding-left: 20px;
+    margin: 15% 50% 822px 72px;
+    gap: 22px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.message h1 {
+    margin: 0;
+    width: 346px;
+    height: 79px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.message p {
+    margin: 0;
+    margin-top: 0;
+    width: 346px;
+    height: 69px;
+    padding: 15px 0px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: thin;
+    line-height: normal;
+}
+
+button {
+    background-color: #D26312;
+    color: #FFF;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: thin;
+    display: block;
+    text-align: center;
+    padding: 5px;
+
+}
+
+footer {
+    margin-top: -8%;
+    width: 100%;
+    max-width: 100%; 
+    height: 30%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 0px;
+    font-family: poppins, sans-serif;
+}
+
+.footHead h3 {
+    color: #3F1200;
+    width: 521px;
+    height: 17px;
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0;
+    text-align: center;
+}
+
+.footMessage {
+    width: 1280px;
+    height: 891px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 240px;
+    padding: 20px;
+    font-family: poppins, sans-serif;
+}
+
+.footData {
+    width: 156px;
+    height: 44px;
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.footMessage img {
+    margin-top: 50px;
+    background-size: cover;
+    width: 38px;
+    height: 24px;
+}
+
+.foot{
+    font-family: poppins, sans-serif;
+}
+
+.foot h3{
+    width: 156px;
+    height: 44px;
+    margin-bottom: 0;
+}
+
+.foot p {
+    width: 156px;
+    height: 44px;
+    color: #151212;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -10%; 
+}
+
+.foot h5{
+    width: 199px;
+    height: 44px;
+    margin-top:-26%;
+    color: #151212;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .container{
+        justify-content: center;
+        background-position:inherit ;
+    }
+
+    header {
+        box-sizing: border-box;
+        width:90%;
+        gap: 0;
+        padding-top: 0%;
+        height: auto;
+        align-content: center;
+        border-bottom: 0px;
+       }
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+
+    .logoId {
+        font-size: 5px;
+        margin-top:-4%;
+        justify-items: center;
+    }
+
+    .logo {
+        padding-top: 0%;
+        margin: 10% auto;
+        margin-top: 0%;
+        justify-content: center;
+    }
+
+    .link {
+        padding: 0% auto;
+        margin-top: -9%;
+    }
+
+    .link li {
+        margin: 5px 0;
+    }
+
+    .icons {
+        justify-content: center;
+        width: 100%; 
+    }
+
+    .beforeMessage {
+        margin-top: -1%;
+        background-image: url(../images/pic3.jpg);
+        background-position: center;
+        background-size: contain;
+    }
+
+    .message{
+        margin: 10px auto;
+        margin-top: -12%;
+        width: 100%;
+        height: auto;
+    }
+
+    .message h1{
+        font-size:400;
+    }
+
+    .message p {
+        font-size: small;
+    }
+
+    footer {
+
+        margin-top: 1%;
+        width: 90%; 
+        height: 100px;
+
+    }
+
+    .footHead h3 {
+        width: 300px;
+        height: 100px;
+        font-display:initial;
+    }
+    .footMessage {
+        width: 90%;
+        justify-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .footData:nth-child(3) {
+        margin-left: 14%;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-bottom: 80px;
+    }
+
+    .container{
+        margin-bottom: 6%;
+    }
+
+    .logo, .logoId {
+        font-size: 14px; 
+    }
+
+    .link {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15%;
+    }
+
+    .link li {
+        margin: 7px 0; 
+    }
+
+    .icons {
+        justify-content: center;
+        width: 100%; 
+    }
+
+    .message {
+        margin-top: 80px;
+        margin: 25px auto;
+    }
+
+    footer {
+        padding: 15px;
+        width: 100%; 
+    }
+}
